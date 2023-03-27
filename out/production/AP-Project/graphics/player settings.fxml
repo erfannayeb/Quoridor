@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane minHeight="595.0" minWidth="520.0" style="-fx-background-color: rgba(30,30,66,0.81);" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphics.Controller">
+    <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#gotoGameModes" text="Back" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0">
+        <font>
+            <Font name="Arial Rounded MT Bold" size="17.0" />
+        </font>
+    </Button>
+
+    <Label layoutX="14.0" layoutY="173.0" prefHeight="21.0" prefWidth="153.0" text="Enter the names:" textFill="#402e07" AnchorPane.topAnchor="173.0">
+        <font>
+            <Font name="Bookman Old Style" size="18.0" />
+        </font>
+    </Label>
+
+    <Button layoutX="387.0" layoutY="548.0" mnemonicParsing="false" onAction="#gotoNewGame" onMouseClicked="#gotoNewGame" prefWidth="119.0" text="Start">
+        <font>
+            <Font name="Arial Rounded MT Bold" size="17.0" />
+        </font>
+    </Button>
+
+    <TextField fx:id="player1name" layoutX="14.0" layoutY="196.0" prefHeight="33.0" prefWidth="367.0" text="1st Player" />
+    <TextField fx:id="player2name" layoutX="14.0" layoutY="236.0" prefHeight="33.0" prefWidth="367.0" text="2nd Player" />
+    <!--todo: bot buttons are here-->
+    <ToggleButton fx:id="bot1" layoutX="402.0" layoutY="196.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="50.0" text="Bot" />
+    <ToggleButton fx:id="bot2" layoutX="402.0" layoutY="236.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="50.0" text="Bot" />
+
+    <Label fx:id="status" alignment="CENTER" layoutX="14.0" layoutY="548.0" prefHeight="33.0" prefWidth="367.0" textAlignment="CENTER" textFill="RED">
+        <font>
+            <Font name="Arial Rounded MT Bold" size="17.0" />
+        </font>
+    </Label>
+   <ChoiceBox fx:id="bot1difficulty" layoutX="456.0" layoutY="196.0" prefHeight="33.0" prefWidth="50.0" />
+   <ChoiceBox fx:id="bot2difficulty" layoutX="456.0" layoutY="236.0" prefHeight="33.0" prefWidth="50.0" />
+</AnchorPane>

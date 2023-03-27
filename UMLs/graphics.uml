@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>graphics</OriginalElement>
+  <nodes>
+    <node x="14.0" y="0.0">graphics.Controller</node>
+    <node x="0.0" y="125.0">graphics.Play</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="graphics.Play" target="graphics.Controller">
+      <point x="-49.33333333333334" y="-48.5" />
+      <point x="24.666666666666657" y="100.0" />
+      <point x="34.0" y="100.0" />
+      <point x="-40.0" y="37.5" />
+    </edge>
+    <edge source="graphics.Controller" target="graphics.Play">
+      <point x="40.0" y="37.5" />
+      <point x="114.0" y="100.0" />
+      <point x="123.33333333333334" y="100.0" />
+      <point x="49.33333333333334" y="-48.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.3000000000000003" x="97.96153846153857" y="91.42307692307696" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>packageLocal</VISIBILITY>
+</Diagram>
+

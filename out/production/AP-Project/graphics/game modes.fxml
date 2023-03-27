@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane minHeight="595.0" minWidth="520.0" style="-fx-background-color: rgba(30,30,66,0.8);" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphics.Controller">
+    <Label layoutX="133.0" layoutY="57.0" prefHeight="49.0" prefWidth="254.0" text="Game Modes" textAlignment="CENTER" textFill="#402e07" AnchorPane.topAnchor="57.0">
+        <font>
+            <Font name="Bookman Old Style" size="40.0" />
+        </font>
+    </Label>
+
+    <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#gotoMenu" text="Back" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0">
+        <font>
+            <Font name="Arial Rounded MT Bold" size="17.0" />
+        </font>
+    </Button>
+
+    <Button layoutX="147.0" layoutY="208.0" mnemonicParsing="false" onMouseClicked="#gotoPlayerSettings" prefHeight="33.0" prefWidth="227.0" text=" Single Match">
+        <font>
+            <Font name="Arial Rounded MT Bold" size="17.0" />
+        </font>
+    </Button>
+
+    <Line endX="-15.0" fill="BLACK" layoutX="249.0" layoutY="285.0" startX="-132.0" />
+    <Line endX="117.0" endY="42.0" layoutX="119.0" layoutY="254.0" startX="117.0" startY="21.0" />
+    <Label layoutX="244.0" layoutY="274.0" prefHeight="16.0" prefWidth="32.0" text="OR" textAlignment="CENTER" textFill="#402e07">
+        <font>
+            <Font name="Bookman Old Style" size="20.0" />
+        </font>
+    </Label>
+    <Line endX="117.0" endY="42.0" layoutX="166.0" layoutY="255.0" startX="117.0" startY="21.0" />
+    <Line endX="-15.0" fill="BLACK" layoutX="416.0" layoutY="286.0" startX="-132.0" />
+
+    <Button layoutX="147.0" layoutY="327.0" mnemonicParsing="false" onMouseClicked="#gotoCup" prefWidth="227.0" text="TOURNAMENT">
+        <font>
+            <Font name="Arial Rounded MT Bold" size="17.0" />
+        </font>
+    </Button>
+</AnchorPane>

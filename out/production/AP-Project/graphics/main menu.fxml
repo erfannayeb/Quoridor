@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane minHeight="595.0" minWidth="520.0" style="-fx-background-color: rgba(30,30,66,0.8);" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphics.Controller">
+    <Label layoutX="62.0" layoutY="58.0" prefHeight="38.0" prefWidth="415.0" text="Welcome to Quoridor" textFill="#291b07"
+           AnchorPane.topAnchor="58.0">
+        <font>
+            <Font name="Bookman Old Style" size="40.0" />
+        </font>
+    </Label>
+
+    <Button layoutX="201.0" layoutY="265.0" mnemonicParsing="false" onMouseClicked="#gotoGameModes" prefWidth="119.0" text="New Game">
+        <font>
+            <Font name="Arial Rounded MT Bold" size="17.0" />
+        </font>
+    </Button>
+    <!--todo: load game-->
+    <Button layoutX="201.0" layoutY="357.0" mnemonicParsing="false" onMouseClicked="#gotoLoad" text="Load Game">
+        <font>
+            <Font name="Arial Rounded MT Bold" size="17.0" />
+        </font>
+    </Button>
+
+    <Button layoutX="201.0" layoutY="454.0" mnemonicParsing="false" onMouseClicked="#Exit" prefWidth="119.0" text="Exit">
+        <font>
+            <Font name="Arial Rounded MT Bold" size="17.0" />
+        </font>
+    </Button>
+</AnchorPane>

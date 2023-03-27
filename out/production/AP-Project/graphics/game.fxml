@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane minHeight="595.0" minWidth="520.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphics.Controller">
+    <top>
+        <MenuBar prefHeight="20.0" BorderPane.alignment="CENTER">
+            <Menu mnemonicParsing="false" text="Game">
+                <MenuItem mnemonicParsing="false" onAction="#gotoNewGame" text="New Game" />
+                <!--todo: load option-->
+                <MenuItem mnemonicParsing="false" onAction="#gotoLoad" text="Load Game" />
+            </Menu>
+
+            <Menu mnemonicParsing="false" text="Exit">
+                <!--todo: save option-->
+                <MenuItem mnemonicParsing="false" onAction="#save" text="Save" />
+                <MenuItem mnemonicParsing="false" onAction="#gotoMenu" text="Quit" />
+            </Menu>
+        </MenuBar>
+    </top>
+
+    <center>
+        <AnchorPane minHeight="570.0" minWidth="520.0" style="-fx-background-color: rgba(30,30,66,0.8)">
+            <Label fx:id="player1info" alignment="CENTER" prefHeight="45.0" prefWidth="270.0" text="Label" textAlignment="CENTER" AnchorPane.leftAnchor="40.0">
+                <font>
+                    <Font name="Arial Rounded MT Bold" size="16.0" />
+                </font>
+            </Label>
+
+            <Label fx:id="player2info" alignment="CENTER" layoutY="45.0" prefHeight="45.0" prefWidth="270.0" text="Label" textAlignment="CENTER" AnchorPane.leftAnchor="40.0">
+                <font>
+                    <Font name="Arial Rounded MT Bold" size="16.0" />
+                </font>
+            </Label>
+
+            <Label fx:id="player1walls" alignment="CENTER" layoutX="338.0" prefHeight="45.0" prefWidth="172.0" text="Remaining Walls: 10" textAlignment="CENTER" AnchorPane.rightAnchor="40.0">
+                <font>
+                    <Font name="Arial Rounded MT Bold" size="16.0" />
+                </font>
+            </Label>
+
+            <Label fx:id="player2walls" alignment="CENTER" layoutX="338.0" layoutY="45.0" prefHeight="45.0" prefWidth="172.0" text="Remaining Walls: 10" textAlignment="CENTER" AnchorPane.rightAnchor="40.0">
+                <font>
+                    <Font name="Arial Rounded MT Bold" size="16.0" />
+                </font>
+            </Label>
+
+            <AnchorPane fx:id="table" layoutX="225.0" layoutY="150.0" minHeight="440.0" minWidth="440.0" prefWidth="440.0" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" />
+        </AnchorPane>
+    </center>
+</BorderPane>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane minHeight="595.0" minWidth="520.0" style="-fx-background-color: rgba(30,30,66,0.8);" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graphics.Controller">
+    <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#gotoGameModes" text="Back" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0">
+        <font>
+            <Font name="Arial Rounded MT Bold" size="17.0" />
+        </font>
+    </Button>
+
+    <Label fx:id="names" alignment="CENTER" layoutX="15.0" layoutY="56.0" prefHeight="271.0" prefWidth="367.0" wrapText="true" AnchorPane.bottomAnchor="268.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="138.0" AnchorPane.topAnchor="56.0">
+        <font>
+            <Font name="Arial Rounded MT Bold" size="15.0" />
+        </font>
+    </Label>
+
+    <Label layoutX="16.0" layoutY="328.0" prefHeight="21.0" prefWidth="153.0" text="Enter the names:" textFill="#402e07" AnchorPane.topAnchor="328.0">
+        <font>
+            <Font name="Bookman Old Style" size="18.0" />
+        </font>
+    </Label>
+
+    <TextField fx:id="name_input" layoutX="14.0" layoutY="349.0" prefHeight="33.0" prefWidth="367.0" promptText="divide names by enter" />
+    <!--todo: the bot label-->
+    <Label layoutX="16.0" layoutY="382.0" prefHeight="21.0" prefWidth="153.0" text="If you want to add bots" textFill="#402e07">
+        <font>
+            <Font name="Bookman Old Style" size="13.0" />
+        </font>
+    </Label>
+    <!--todo: the bot textfield-->
+    <TextField fx:id="number_of_bots" layoutX="16.0" layoutY="403.0" prefHeight="33.0" prefWidth="153.0" promptText="Enter the number of bots" />
+
+    <Label fx:id="error" alignment="CENTER" layoutX="16.0" layoutY="548.0" prefHeight="33.0" prefWidth="367.0" textFill="RED">
+        <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+        </font>
+    </Label>
+
+    <Button layoutX="387.0" layoutY="548.0" mnemonicParsing="false" onAction="#cup" prefWidth="119.0" text="Finish">
+        <font>
+            <Font name="Arial Rounded MT Bold" size="17.0" />
+        </font>
+    </Button>
+</AnchorPane>

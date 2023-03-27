@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>game</OriginalElement>
+  <nodes>
+    <node x="482.17631172839504" y="0.0">game.Bead</node>
+    <node x="500.0582561728395" y="1419.0">game.AI</node>
+    <node x="406.0" y="559.0">game.Cup</node>
+    <node x="79.04359567901236" y="803.0">game.Wall</node>
+    <node x="0.0" y="548.0">game.BoardGraph</node>
+    <node x="457.17631172839504" y="167.0">game.Player</node>
+    <node x="357.875" y="970.0">game.Board</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="game.AI" target="game.Player">
+      <point x="0.0" y="-47.5" />
+      <point x="592.5582561728395" y="1394.0" />
+      <point x="627.766975308642" y="1394.0" />
+      <point x="627.766975308642" y="508.0" />
+      <point x="598.8429783950617" y="508.0" />
+      <point x="56.66666666666663" y="155.5" />
+    </edge>
+    <edge source="game.Wall" target="game.BoardGraph">
+      <point x="0.0" y="-58.5" />
+      <point x="247.54359567901236" y="778.0" />
+      <point x="288.75" y="778.0" />
+      <point x="96.25" y="102.5" />
+    </edge>
+    <edge source="game.BoardGraph" target="game.Player">
+      <point x="0.0" y="-102.5" />
+      <point x="192.5" y="498.0" />
+      <point x="466.6207561728395" y="498.0" />
+      <point x="-75.55555555555554" y="155.5" />
+    </edge>
+    <edge source="game.Player" target="game.Bead">
+      <point x="56.66666666666663" y="-155.5" />
+      <point x="598.8429783950617" y="142.0" />
+      <point x="582.176311728395" y="142.0" />
+      <point x="40.0" y="58.5" />
+    </edge>
+    <edge source="game.AI" target="game.Board">
+      <point x="-61.66666666666663" y="-47.5" />
+      <point x="530.8915895061729" y="1394.0" />
+      <point x="461.375" y="1394.0" />
+      <point x="0.0" y="199.5" />
+    </edge>
+    <edge source="game.Board" target="game.Wall">
+      <point x="-77.625" y="-199.5" />
+      <point x="383.75" y="950.0" />
+      <point x="163.29359567901236" y="950.0" />
+      <point x="-84.25" y="58.5" />
+    </edge>
+    <edge source="game.Cup" target="game.Player">
+      <point x="58.0" y="-91.5" />
+      <point x="551.0" y="528.0" />
+      <point x="542.176311728395" y="528.0" />
+      <point x="0.0" y="155.5" />
+    </edge>
+    <edge source="game.Wall" target="game.Player">
+      <point x="112.33333333333331" y="-58.5" />
+      <point x="359.87692901234567" y="778.0" />
+      <point x="395.5" y="778.0" />
+      <point x="395.5" y="508.0" />
+      <point x="485.5096450617284" y="508.0" />
+      <point x="-56.666666666666686" y="155.5" />
+    </edge>
+    <edge source="game.Board" target="game.Player">
+      <point x="77.625" y="-199.5" />
+      <point x="539.0" y="950.0" />
+      <point x="616.766975308642" y="950.0" />
+      <point x="616.766975308642" y="518.0" />
+      <point x="579.9540895061727" y="518.0" />
+      <point x="37.777777777777715" y="155.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="687.1805555555562" y="856.9999999999999" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>packageLocal</VISIBILITY>
+</Diagram>
+
